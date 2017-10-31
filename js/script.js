@@ -22,8 +22,13 @@ var chart = c3.generate({
         }
    },
    axis: {
+        rotated: true,
         x: {
             type: 'category'
+        },
+        y: {
+            max: 100,
+            padding: {top:0, bottom:0}
         }
     }
 });
