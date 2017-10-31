@@ -13,7 +13,7 @@ var chart = c3.generate({
             data1: 'Name 1',
             data2: 'Name 2'
         },
-        url: '/data/c3_test.csv'
+        url: './data/c3_test.csv'
    },
    axis: {
         rotated: true,
