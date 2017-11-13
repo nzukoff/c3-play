@@ -1,5 +1,5 @@
-var chart1 = c3.generate({
-    bindto: '#chart1',
+var c3chart1 = c3.generate({
+    bindto: '#c3chart1',
     data: {
         x : 'x',        
         type: 'bar', 
@@ -26,7 +26,7 @@ var chart1 = c3.generate({
 });
 
 setTimeout(function () {
-    chart1.load({
+    c3chart1.load({
         columns: [
             ['x', 'Overall CASE Score', 'Classroom: 4Cs'],
             ['Top 5%', 1118, 1066],
@@ -35,8 +35,8 @@ setTimeout(function () {
     });
 }, 500);
 
-var chart2 = c3.generate({
-    bindto: '#chart2',
+var c3chart2 = c3.generate({
+    bindto: '#c3chart2',
     data: {
         x : 'x',        
         type: 'bar', 
@@ -66,7 +66,7 @@ var chart2 = c3.generate({
 });
 
 setTimeout(function () {
-    chart2.load({
+    c3chart2.load({
         columns: [
             ['x', 'Overall CASE Score', 'Classroom: 4Cs'],
             ['Top 5%', 39.81, 40.31],
@@ -75,8 +75,8 @@ setTimeout(function () {
     });
 }, 500);
 
-var chart3 = c3.generate({
-    bindto: '#chart3',
+var c3chart3 = c3.generate({
+    bindto: '#c3chart3',
     data: {
         x : 'x',        
         type: 'bar', 
@@ -106,7 +106,7 @@ var chart3 = c3.generate({
 });
 
 setTimeout(function () {
-    chart3.load({
+    c3chart3.load({
         columns: [
             ['x', 'Overall CASE Score', 'Classroom: 4Cs'],
             ['Top 5%', 40.66, 39.17],
@@ -115,8 +115,8 @@ setTimeout(function () {
     });
 }, 500);
 
-var chart4 = c3.generate({
-    bindto: '#chart4',
+var c3chart4 = c3.generate({
+    bindto: '#c3chart4',
     data: {
         x : 'x',        
         type: 'bar', 
@@ -146,7 +146,7 @@ var chart4 = c3.generate({
 });
 
 setTimeout(function () {
-    chart4.load({
+    c3chart4.load({
         columns: [
             ['x', 'Access at School', 'Access at Home'],
             ['Top 5%', 38.62, 28.05],
@@ -155,8 +155,8 @@ setTimeout(function () {
     });
 }, 500);
 
-var chart5 = c3.generate({
-    bindto: '#chart5',
+var c3chart5 = c3.generate({
+    bindto: '#c3chart5',
     data: {
         x : 'x',        
         type: 'bar', 
@@ -186,7 +186,7 @@ var chart5 = c3.generate({
 });
 
 setTimeout(function () {
-    chart5.load({
+    c3chart5.load({
         columns: [
             ['x', 'FRL Percent Rate'],
             ['Top 5%', 49.97],
@@ -195,8 +195,8 @@ setTimeout(function () {
     });
 }, 500);
 
-var chart6 = c3.generate({
-    bindto: '#chart6',
+var c3chart6 = c3.generate({
+    bindto: '#c3chart6',
     data: {
         x : 'x',        
         type: 'bar', 
@@ -226,7 +226,7 @@ var chart6 = c3.generate({
 });
 
 setTimeout(function () {
-    chart6.load({
+    c3chart6.load({
         columns: [
             ['x', 'Environment: The 3Ps', 'Environment: Beliefs'],
             ['Top 5%', 43.31, 44.43],
