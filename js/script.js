@@ -16,10 +16,14 @@ var c3chart1 = c3.generate({
         x: {
             type: 'category'
         },
-        y: {
+        y: {            
             min: 800,
             max: 1200,
-            padding: {top:0, bottom:0}
+            padding: {top:0, bottom:0},
+            label: {
+                text: 'CASE Scale Score',
+                position: 'outer-middle'
+            }
         }
     },
     transition: {duration: 2000}
@@ -59,6 +63,10 @@ var c3chart2 = c3.generate({
             tick: {
                 values: [10,20,30,40,50,60],
                 format: function (d) { return `${d}%`; }
+            },
+            label: {
+                text: 'Average Minority',
+                position: 'outer-middle'
             }
         }
     },
@@ -99,6 +107,10 @@ var c3chart3 = c3.generate({
             tick: {
                 values: [10,20,30,40,50,60],
                 format: function (d) { return `${d}%`; }
+            },
+            label: {
+                text: 'Average FRL Percent',
+                position: 'outer-middle'
             }
         }
     },
@@ -139,6 +151,10 @@ var c3chart4 = c3.generate({
             tick: {
                 values: [10,20,30,40,50,60],
                 format: function (d) { return `${d}%`; }
+            },
+            label: {
+                text: 'Average FRL Percent',
+                position: 'outer-middle'
             }
         }
     },
@@ -179,6 +195,10 @@ var c3chart5 = c3.generate({
             tick: {
                 values: [10,20,30,40,50,60],
                 format: function (d) { return `${d}%`; }
+            },
+            label: {
+                text: 'Average FRL Percent',
+                position: 'outer-middle'
             }
         }
     },
@@ -219,6 +239,10 @@ var c3chart6 = c3.generate({
             tick: {
                 values: [10,20,30,40,50,60],
                 format: function (d) { return `${d}%`; }
+            },
+            label: {
+                text: 'Average FRL Percent',
+                position: 'outer-middle'
             }
         }
     },
