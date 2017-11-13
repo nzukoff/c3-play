@@ -1,0 +1,31 @@
+.c3 .c3-axis-x path, .c3 .c3-axis-x line {
+    stroke: white;
+}
+.c3 .c3-axis-y path, .c3 .c3-axis-y line {
+    stroke: white;
+}
+
+.c3 .c3-axis-y text  {
+    fill: white;
+}
+
+.c3 .c3-axis-x text {
+     fill:white;
+     font-size: 14px
+}
+
+.c3 .c3-legend-item text {
+    fill: white;
+}
+
+.c3-axis .tick line {display: none;}
+
+.c3 .c3-legend-background {
+    fill: #669fbd;
+    stroke:none;
+}
+
+body {
+    background-color: #669fbd
+}
+
